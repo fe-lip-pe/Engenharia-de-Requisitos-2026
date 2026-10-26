@@ -1,34 +1,39 @@
 📘 Caracterização da Engenharia de Requisitos
 
+<div align="center">
+
 !Engenharia de Requisitos
 
-📌 O que é?
+Entendendo as necessidades dos usuários para desenvolver sistemas melhores.
 
-A Engenharia de Requisitos é uma área da Engenharia de Software responsável por identificar, analisar, documentar e validar as necessidades dos usuários de um sistema.
+!Status !Tema !Formato
+
+</div>
+
+📌 Sobre o tema
+
+A Engenharia de Requisitos é uma área da Engenharia de Software responsável por identificar, analisar, documentar e validar as necessidades dos usuários antes e durante o desenvolvimento de um sistema.
+
+Seu objetivo é garantir que o software desenvolvido atenda às expectativas dos usuários.
 
 🎯 Objetivos
-Entender as necessidades dos usuários.
-Definir o que o sistema deve fazer.
-Evitar erros e falhas no desenvolvimento.
+Compreender as necessidades dos usuários.
+Definir as funcionalidades do sistema.
+Evitar erros e retrabalho.
 Melhorar a comunicação entre clientes e desenvolvedores.
-📝 Tipos de Requisitos
-Requisitos funcionais: descrevem as funções que o sistema deve executar, como realizar um cadastro ou gerar um relatório.
-Requisitos não funcionais: definem características de qualidade do sistema, como segurança, desempenho e facilidade de uso.
-🔄 Etapas da Engenharia de Requisitos
-Elicitação: coletar as necessidades dos usuários.
-Análise: estudar e organizar os requisitos.
-Documentação: registrar os requisitos identificados.
-Validação: verificar se os requisitos estão corretos.
-Gerenciamento: acompanhar e controlar as mudanças nos requisitos.
+Garantir a qualidade do software.
+📝 Tipos de requisitos
+Tipo	Descrição	Exemplo
+Funcionais	Definem o que o sistema deve fazer.	Cadastrar usuários.
+Não funcionais	Definem características e restrições do sistema.	Garantir segurança e bom desempenho.
+🔄 Principais etapas
+Elicitação: levantamento das necessidades dos usuários.
+Análise: organização e avaliação dos requisitos.
+Documentação: registro dos requisitos.
+Validação: verificação de que os requisitos representam as necessidades reais.
+Gerenciamento: controle das alterações nos requisitos.
 💡 Exemplo prático
 
-Em um sistema de uma biblioteca:
+Imagine um sistema de biblioteca:
 
-Requisito funcional: permitir o cadastro de livros.
-Requisito não funcional: garantir que os dados dos usuários sejam protegidos.
-✅ Conclusão
-
-A Engenharia de Requisitos é fundamental para desenvolver sistemas que atendam às necessidades dos usuários, reduzindo erros, custos e retrabalho.
-
-📚 Referência
-Engenharia de Software — conceitos e práticas de Engenharia de Requisitos.
+📚 Requisito funcional: permitir o
