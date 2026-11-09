@@ -1,105 +1,220 @@
-📚 Visão Geral da Engenharia de Requisitos
 
-<p align="center">
-<img src="https://img.shields.io/badge/Área-Engenharia%20de%20Software-blue?style=for-the-badge">
-<img src="https://img.shields.io/badge/Conteúdo-Engenharia%20de%20Requisitos-purple?style=for-the-badge">
-<img src="https://img.shields.io/badge/Status-Em%20Aprendizado-green?style=for-the-badge">
+<div align="center">
+
+# ⚙️ ENGENHARIA DE REQUISITOS
+
+### Visão Geral | Engenharia de Software
+
+<p>
+  <img src="https://img.shields.io/badge/Estudo-Engenharia%20de%20Software-7C3AED?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Tema-Requisitos-2563EB?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Status-Concluído-16A34A?style=for-the-badge">
 </p>
 
-📌 Introdução
+**Compreender antes de desenvolver. Planejar antes de construir.**
 
-A Engenharia de Requisitos é uma área fundamental da Engenharia de Software, responsável por identificar, analisar, documentar, validar e gerenciar as necessidades e expectativas dos usuários em relação a um sistema.
+</div>
 
-Seu principal objetivo é garantir que o software desenvolvido atenda às necessidades do cliente, evitando falhas de comunicação, retrabalho e diferenças entre o produto esperado e o produto entregue.
+---
 
-🎯 Objetivos da Engenharia de Requisitos
-Compreender as necessidades dos clientes e usuários.
-Identificar os requisitos do sistema.
-Documentar as funcionalidades e restrições do software.
-Garantir uma comunicação eficiente entre os envolvidos no projeto.
-Reduzir erros e custos durante o desenvolvimento.
-Acompanhar mudanças nos requisitos ao longo do projeto.
-⚙️ Principais Etapas
-1. Elicitação de Requisitos
+## 📑 Sumário
 
-Consiste em coletar informações e compreender as necessidades dos clientes e usuários.
+- [01. Introdução](#-01-introdução)
+- [02. O que é Engenharia de Requisitos?](#-02-o-que-é-engenharia-de-requisitos)
+- [03. Objetivos](#-03-objetivos)
+- [04. Classificação dos Requisitos](#-04-classificação-dos-requisitos)
+- [05. Processo da Engenharia de Requisitos](#-05-processo-da-engenharia-de-requisitos)
+- [06. Técnicas de Elicitação](#-06-técnicas-de-elicitação)
+- [07. Especificação de Requisitos](#-07-especificação-de-requisitos)
+- [08. Desafios e Problemas](#-08-desafios-e-problemas)
+- [09. Importância](#-09-importância)
+- [10. Conclusão](#-10-conclusão)
 
-Técnicas utilizadas:
+---
 
-Entrevistas;
-Questionários;
-Observação;
-Brainstorming;
-Reuniões com stakeholders.
-2. Análise de Requisitos
+## 🔹 01. Introdução
 
-Etapa em que os requisitos coletados são analisados para identificar possíveis conflitos, ambiguidades, inconsistências e prioridades.
+A Engenharia de Requisitos é uma das etapas mais importantes do desenvolvimento de software. Ela estabelece uma conexão entre as necessidades dos clientes e a solução tecnológica que será desenvolvida.
 
-3. Especificação de Requisitos
+Antes de iniciar a programação, é necessário compreender o problema, identificar as expectativas dos usuários e definir claramente o que o sistema deverá realizar.
 
-Consiste em documentar detalhadamente os requisitos do sistema, descrevendo o que ele deve fazer e quais restrições precisa respeitar.
+> Um software de qualidade começa com requisitos bem definidos.
 
-4. Validação de Requisitos
+## 🔹 02. O que é Engenharia de Requisitos?
 
-Tem como objetivo verificar se os requisitos documentados representam corretamente as necessidades do cliente.
+É a área da Engenharia de Software responsável por descobrir, analisar, documentar, validar e gerenciar os requisitos de um sistema.
 
-5. Gerenciamento de Requisitos
+Seu propósito é garantir que o produto desenvolvido corresponda às necessidades reais dos usuários e aos objetivos do negócio.
 
-Responsável por controlar, acompanhar e documentar as alterações realizadas nos requisitos durante o desenvolvimento do software.
+### Principais responsabilidades
 
-📝 Tipos de Requisitos
-🔹 Requisitos Funcionais
+- Identificar necessidades dos stakeholders.
+- Compreender o problema que precisa ser resolvido.
+- Definir funcionalidades e restrições.
+- Documentar os requisitos.
+- Validar as informações com o cliente.
+- Controlar alterações durante o projeto.
 
-Descrevem as funcionalidades e os serviços que o sistema deve oferecer.
+---
 
-Exemplos:
+## 🔹 03. Objetivos
 
-Permitir que o usuário realize login.
-Cadastrar novos clientes.
-Gerar relatórios.
-Realizar pagamentos.
-🔹 Requisitos Não Funcionais
+| Objetivo | Descrição |
+|:---|:---|
+| Comunicação | Melhorar o entendimento entre cliente e equipe. |
+| Organização | Definir claramente o escopo do projeto. |
+| Qualidade | Garantir que o sistema atenda às necessidades. |
+| Prevenção | Evitar erros, ambiguidades e retrabalho. |
+| Controle | Gerenciar mudanças nos requisitos. |
 
-Definem características de qualidade, desempenho e restrições do sistema.
+---
 
-Exemplos:
+## 🔹 04. Classificação dos Requisitos
 
-O sistema deve carregar em até 3 segundos.
-Os dados dos usuários devem ser protegidos.
-A aplicação deve funcionar em diferentes navegadores.
-O sistema deve estar disponível 24 horas por dia.
-🛠️ Técnicas e Ferramentas
+Os requisitos são classificados principalmente em duas categorias:
 
-Algumas técnicas e ferramentas utilizadas na Engenharia de Requisitos são:
+### 4.1 Requisitos Funcionais (RF)
 
-Técnica/Ferramenta	Finalidade
-Entrevistas	Coletar informações dos usuários
-Questionários	Obter opiniões e necessidades
-Protótipos	Representar visualmente o sistema
-Casos de Uso	Descrever interações entre usuários e sistema
-Diagramas UML	Representar a estrutura e o comportamento do software
-Documento ERS	Registrar os requisitos do sistema
-⚠️ Importância da Engenharia de Requisitos
+Descrevem **o que o sistema deve fazer**, ou seja, suas funcionalidades e comportamentos.
 
-A ausência de uma boa Engenharia de Requisitos pode ocasionar problemas como:
+**Exemplos:**
 
-Falhas de comunicação entre cliente e desenvolvedores;
-Desenvolvimento de funcionalidades desnecessárias;
-Aumento dos custos do projeto;
-Atrasos nas entregas;
-Insatisfação do cliente;
-Necessidade de retrabalho.
+- RF01 — O sistema deve permitir o cadastro de usuários.
+- RF02 — O sistema deve permitir a autenticação por e-mail e senha.
+- RF03 — O sistema deve possibilitar a consulta de informações.
+- RF04 — O sistema deve gerar relatórios.
 
-Por isso, é essencial manter o cliente envolvido durante todo o processo de desenvolvimento.
+### 4.2 Requisitos Não Funcionais (RNF)
 
-💡 Conclusão
+Descrevem **como o sistema deve funcionar**, estabelecendo critérios de qualidade, desempenho, segurança e usabilidade.
 
-A Engenharia de Requisitos é indispensável para o desenvolvimento de softwares de qualidade. Por meio da identificação, análise, documentação, validação e gerenciamento dos requisitos, é possível compreender melhor as necessidades dos usuários e construir soluções que atendam às expectativas do cliente.
+**Exemplos:**
 
-Uma boa Engenharia de Requisitos contribui para projetos mais organizados, eficientes e com maiores chances de sucesso.
+- RNF01 — O sistema deve responder às solicitações em até 3 segundos.
+- RNF02 — As senhas devem ser armazenadas de forma segura.
+- RNF03 — A aplicação deve ser compatível com dispositivos móveis.
+- RNF04 — O sistema deve apresentar uma interface intuitiva.
 
-<p align="center">
-<strong>📖 Engenharia de Software | Estudos e Aprendizado</strong>
-<br>
-Desenvolvido como material de estudo sobre Engenharia de Requisitos.
-</p>
+---
+
+## 🔹 05. Processo da Engenharia de Requisitos
+
+O processo é composto por atividades que ajudam a transformar necessidades em requisitos claros e documentados.
+
+### ① Elicitação
+
+Coleta das informações e necessidades dos clientes e usuários.
+
+### ② Análise
+
+Avaliação dos requisitos para identificar conflitos, inconsistências, ambiguidades e prioridades.
+
+### ③ Especificação
+
+Documentação detalhada dos requisitos que deverão orientar o desenvolvimento.
+
+### ④ Validação
+
+Verificação de que os requisitos representam corretamente aquilo que o cliente realmente precisa.
+
+### ⑤ Gerenciamento
+
+Acompanhamento e controle das mudanças realizadas nos requisitos durante o ciclo de vida do software.
+
+---
+
+## 🔹 06. Técnicas de Elicitação
+
+A elicitação permite descobrir o que os usuários realmente esperam do sistema.
+
+| Técnica | Aplicação |
+|:---|:---|
+| Entrevistas | Conversas com clientes e usuários. |
+| Questionários | Coleta de informações de vários participantes. |
+| Observação | Análise da rotina dos usuários. |
+| Brainstorming | Levantamento coletivo de ideias. |
+| Prototipação | Criação de modelos visuais do sistema. |
+| Workshops | Discussões colaborativas sobre requisitos. |
+
+---
+
+## 🔹 07. Especificação de Requisitos
+
+A especificação registra formalmente os requisitos identificados e analisados.
+
+Um dos documentos utilizados é a **ERS (Especificação de Requisitos de Software)**.
+
+### Características de uma boa especificação
+
+- Clareza: fácil de compreender.
+- Consistência: sem contradições.
+- Completude: contempla as informações necessárias.
+- Verificabilidade: permite conferir se foi atendida.
+- Rastreabilidade: permite acompanhar a origem e as alterações dos requisitos.
+
+---
+
+## 🔹 08. Desafios e Problemas
+
+A falta de uma Engenharia de Requisitos adequada pode provocar diversos problemas durante o desenvolvimento.
+
+**Principais dificuldades:**
+
+- Falhas de comunicação entre cliente e desenvolvedores.
+- Requisitos incompletos ou mal interpretados.
+- Mudanças constantes no escopo.
+- Falta de participação dos usuários.
+- Ausência de documentação.
+- Desenvolvimento de funcionalidades desnecessárias.
+
+### ⚠️ A Crise da Comunicação
+
+Um dos principais problemas ocorre quando a equipe de desenvolvimento interpreta incorretamente as necessidades do cliente.
+
+Como consequência, o produto final pode apresentar funcionalidades diferentes das esperadas.
+
+**Como evitar esse problema?**
+
+- Realizar uma elicitação adequada.
+- Criar protótipos para validar ideias.
+- Manter a ERS atualizada.
+- Estabelecer comunicação contínua.
+- Realizar entregas iterativas com participação do cliente.
+
+---
+
+## 🔹 09. Importância da Engenharia de Requisitos
+
+A Engenharia de Requisitos contribui diretamente para o sucesso de um projeto de software.
+
+Seus benefícios incluem:
+
+| Benefício | Resultado |
+|:---|:---|
+| Redução de custos | Menos retrabalho e correções. |
+| Melhor comunicação | Maior alinhamento entre envolvidos. |
+| Organização | Desenvolvimento mais estruturado. |
+| Qualidade | Produto alinhado às necessidades. |
+| Satisfação | Maior atendimento às expectativas do cliente. |
+
+---
+
+## 🔹 10. Conclusão
+
+A Engenharia de Requisitos é fundamental para garantir que o desenvolvimento de software tenha uma direção clara e esteja alinhado às necessidades dos usuários.
+
+Por meio da elicitação, análise, especificação, validação e gerenciamento, é possível reduzir falhas de comunicação, evitar retrabalho e aumentar a qualidade do produto final.
+
+**Mais do que documentar funcionalidades, a Engenharia de Requisitos busca compreender o problema para desenvolver a solução correta.**
+
+---
+
+<div align="center">
+
+### 📚 ENGENHARIA DE SOFTWARE
+
+*Material de estudo — Visão Geral da Engenharia de Requisitos.*
+
+**Desenvolvido para fins acadêmicos.**
+
+</div>
